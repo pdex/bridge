@@ -27,4 +27,4 @@ def cardSorted(cards):
 if __name__ == '__main__':
     print deck
     print shuffle(deck)
-    print sorted(shuffle(deck), cmp)
+    print cardSorted(shuffle(deck))
